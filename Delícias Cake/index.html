@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/imagens/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap">
+    <title>Delícia's Cake | Home</title>
+</head>
+
+<body>
+    <header
+        class="bg-linear-to-r from-rosa-bg-header-1 via-rosa-bg-header-2 to-rosa-bg-header-3 flex items-center justify-between px-8 py-4 bg-pink-100 sticky top-0 z-50">
+        <div class="flex items-center gap-2">
+            <img class="w-13" src="./assets/imagens/logo.png" alt="Logo Delícia's Cake">
+            <span class="font-vibes text-1xl text-marrom-escuro md:text-2xl">Delícia's Cake</span>
+        </div>
+        <nav class="hidden md:flex gap-10 text-marrom-escuro">
+            <a href="#cardapio" class="hover:text-pink-200">Produtos</a>
+            <a href="#sobre" class="hover:text-pink-200">Sobre Nós</a>
+            <a href="#contato" class="hover:text-pink-200">Contato</a>
+        </nav>
+        <a href="#contato" class="bg-white text-pink-300 px-4 py-2 rounded-full text-base font-semibold hover:bg-pink-400 hover:text-white">
+            Encomendar
+        </a>
+    </header>
+    <section class="bg-linear-to-b from-pink-100 to-amber-50 px-8 py-16">
+        <div class="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+            <img class="absolute inset-0 w-full h-150 object-cover" src="./assets/imagens/bolo-de-morango.jpg" alt="Bolos e cupcakes">
+            <div class="absolute inset-0 h-150 bg-linear-to-r from-black/70 via-marrom-escuro/30 to-transparent"></div>
+
+            <div class="z-10 max-w-xl">
+                <span class="inline-flex items-center gap-2 bg-white text-pink-400 px-4 py-1 rounded-full text-sm mb-1 md:">
+                    ● Confeitaria desde 2016
+                </span>
+                <h1 class="text-3xl w-35 font-display font-bold text-amber-50 leading-tight mb-6 md:w-60 md:text-5xl">
+                    Feito com amor,
+                    <span class="font-vibes font-normal text-5xl text-pink-300 md:text-6xl">açúcar</span>
+                    e carinho.
+                </h1>
+                <p class="text-pink-50 text-lg mb-5">
+                    Bolos, cupcakes e doces artesanais para adoçar cada momento especial.
+                </p>
+                <div class="flex gap-4 my-5">
+                    <a href="#cardapio" class="bg-pink-400 text-white px-6 py-3 rounded-full font-semibold hover:bg-pink-500">
+                        Ver produtos
+                    </a>
+                    <a href="#contato" class="bg-none text-amber-50 px-6 py-3 rounded-full font-semibold border border-marrom-escuro hover:bg-pink-50 hover:text-marrom-escuro hover:border-pink-300">
+                        Fazer encomenda
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cardapio" class="bg-amber-50 px-8 py-16 text-center">
+        <p class="font-vibes text-pink-300 text-4xl mt-10">Nosso cardápio</p>
+        <h2 class="font-display text-4xl font-bold text-marrom-escuro mt-3 mb-10">O que preparamos para você</h2>
+
+        <div class="flex flex-wrap justify-center gap-3 mb-12">
+            <a href="#bolos" class="bg-none text-marrom-escuro px-5 py-2 rounded-full font-semibold border border-pink-200 hover:bg-pink-400/80">
+                Bolos
+            </a>
+            <a href="#cupcakes" class="bg-none text-marrom-escuro px-5 py-2 rounded-full font-semibold border border-pink-200 hover:bg-pink-400/80">
+                Cupcakes
+            </a>
+            <a href="#docinhos" class="bg-none text-marrom-escuro px-5 py-2 rounded-full font-semibold border border-pink-200 hover:bg-pink-400/80">
+                Docinhos
+            </a>
+            <a href="#tortas" class="bg-none text-marrom-escuro px-5 py-2 rounded-full font-semibold border border-pink-200 hover:bg-pink-400/80">
+                Tortas & Doces
+            </a>
+        </div>
+
+        <!-- BOLOS -->
+        <div id="bolos" class="max-w-5xl mx-auto text-left mb-16">
+            <h3 class="font-display text-2xl font-bold text-marrom-escuro mb-6">
+                Bolos <span class="font-vibes font-normal text-pink-400 text-1xl ml-2">Feitos por encomenda</span>
+            </h3>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex justify-between items-start">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-bold text-marrom-escuro text-lg">
+                                Red Velvet
+                            </h3>
+                            <span class="bg-pink-100 text-pink-500 text-xs px-2 py-0.5 rounded-full">
+                                FAVORITO
+                            </span>
+                        </div>
+                        <p class="text-marrom-escuro/70 mt-1 text-sm md:text-base md:w-85">
+                            Massa aveludada com cream cheese e frutas vermelhas.
+                        </p>
+                    </div>
+                    <span class="text-pink-500 font-bold text-xs md:text-sm">
+                        R$ 89
+                    </span>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex justify-between items-start">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-bold text-marrom-escuro text-lg">
+                                Prestígio
+                            </h3>
+                        </div>
+                        <p class="text-marrom-escuro/70 mt-1 text-sm md:text-base md:w-85">
+                            Chocolate meio amargo, coco fresco e ganache brilhante.
+                        </p>
+                    </div>
+                    <span class="text-pink-500 font-bold text-xs md:text-sm">
+                        R$ 79
+                    </span>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex justify-between items-start">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-bold text-marrom-escuro text-lg">
+                                Naked Cake de Morango
+                            </h3>
+                        </div>
+                        <p class="text-marrom-escuro/70 mt-1 text-sm md:text-base md:w-85">
+                            Baunilha, chantilly artesanal e morangos frescos.
+                        </p>
+                    </div>
+                    <span class="text-pink-500 font-bold text-xs md:text-sm">
+                        R$ 95
+                    </span>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex justify-between items-start">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-bold text-marrom-escuro text-lg">
+                                Bolo de Limão Siciliano
+                            </h3>
+                        </div>
+                        <p class="text-marrom-escuro/70 mt-1 text-sm md:text-base md:w-85">
+                            Massa cítrica com brigadeiro de limão e raspas.
+                        </p>
+                    </div>
+                    <span class="text-pink-500 font-bold text-xs md:text-sm">
+                        R$ 82
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- CUPCAKES -->
+        <div id="cupcakes" class="max-w-5xl mx-auto text-left mb-16">
+            <h3 class="font-display text-2xl font-bold text-marrom-escuro mb-6">
+                Cupcakes <span class="font-vibes font-normal text-pink-400 text-2xl ml-2">Vitrine diária</span>
+            </h3>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex justify-between items-start">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-bold text-marrom-escuro text-lg">
+                                Cupcake Rosa
+                            </h3>
+                            <span class="bg-pink-100 text-pink-500 text-xs px-2 py-0.5 rounded-full">
+                                NOVIDADE
+                            </span>
+                        </div>
+                        <p class="text-marrom-escuro/70 mt-1 text-sm md:text-base md:w-85">
+                            Baunilha bourbon com buttercream de morango.
+                        </p>
+                    </div>
+                    <span class="text-pink-500 font-bold text-xs md:text-sm">
+                        R$ 12
+                    </span>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex justify-between items-start">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-bold text-marrom-escuro text-lg">
+                                Cupcake Nutella
+                            </h3>
+                        </div>
+                        <p class="text-marrom-escuro/70 mt-1 text-sm md:text-base md:w-85">
+                            Chocolate belga recheado com nutella cremosa.
+                        </p>
+                    </div>
+                    <span class="text-pink-500 font-bold text-xs md:text-sm">R$ 13</span>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex justify-between items-start">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-bold text-marrom-escuro text-lg">
+                                Cupcake Coco
+                            </h3>
+                        </div>
+                        <p class="text-marrom-escuro/70 mt-1 text-sm md:text-base md:w-85">Massa branca com creme de coco e coco tostado.</p>
+                    </div>
+                    <span class="text-pink-500 font-bold text-xs md:text-sm">R$ 11</span>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex justify-between items-start">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-bold text-marrom-escuro text-lg">
+                                Cupcake Ninho
+                            </h3>
+                            <span class="bg-pink-100 text-pink-500 text-xs px-2 py-0.5 rounded-full">QUERIDINHO</span>
+                        </div>
+                        <p class="text-marrom-escuro/70 mt-1 text-sm md:text-base md:w-85">Massa de leite ninho com brigadeiro branco.</p>
+                    </div>
+                    <span class="text-pink-500 font-bold text-sm">R$ 13</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- DOCINHOS -->
+        <div id="docinhos" class="max-w-5xl mx-auto text-left mb-16">
+            <h3 class="font-display text-2xl font-bold text-marrom-escuro mb-6z">
+                Docinhos <span class="font-vibes font-normal text-pink-400 text-2xl ml-2">Cento & meia dúzia</span>
+            </h3>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex justify-between items-start">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-bold text-marrom-escuro text-lg">
+                                Brigadeiro Gourmet
+                            </h3>
+                        </div>
+                        <p class="text-marrom-escuro/70 mt-1 text-sm md:text-base md:w-85">
+                            Chocolate 70%, granulado belga. Mín. 30 un.
+                        </p>
+                    </div>
+                    <span class="text-pink-500 font-bold text-xs md:text-sm">R$ 4,50</span>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex justify-between items-start">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-bold text-marrom-escuro text-lg">
+                                Beijinho de Coco
+                            </h3>
+                        </div>
+                        <p class="text-marrom-escuro/70 mt-1 text-sm md:text-base md:w-85">Coco fresco e leite condensado, cravo da índia.</p>
+                    </div>
+                    <span class="text-pink-500 font-bold text-xs md:text-sm">R$ 4,50</span>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex justify-between items-start">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-bold text-marrom-escuro text-lg">
+                                Cajuzinho
+                            </h3>
+                        </div>
+                        <p class="text-marrom-escuro/70 mt-1 text-sm md:text-base md:w-85">Amendoim torrado com açúcar cristal.</p>
+                    </div>
+                    <span class="text-pink-500 font-bold text-xs md:text-sm">R$ 4,00</span>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex justify-between items-start">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-bold text-marrom-escuro text-lg">
+                                Trufa de Maracujá
+                            </h3>
+                        </div>
+                        <p class="text-marrom-escuro/70 mt-1 text-sm md:text-base md:w-85">Casca de chocolate branco, recheio azedinho.</p>
+                    </div>
+                    <span class="text-pink-500 font-bold text-xs md:text-sm">R$ 6,00</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- TORTAS & DOCES -->
+        <div id="tortas" class="max-w-5xl mx-auto text-left">
+            <h3 class="font-display text-2xl font-bold text-marrom-escuro mb-6">
+                Tortas & Doces <span class="font-vibes font-normal text-pink-400 text-2xl ml-2">Fatia ou inteira</span>
+            </h3>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex justify-between items-start">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-bold text-marrom-escuro text-lg">
+                                Torta de Limão
+                            </h3>
+                        </div>
+                        <p class="text-marrom-escuro/70 mt-1 text-sm w-50 md:text-base md:w-85">Base amanteigada, creme cítrico e merengue tostado.</p>
+                    </div>
+                    <span class="text-pink-500 font-bold text-xs md:text-sm">R$ 18 / fatia</span>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex justify-between items-start">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-bold text-marrom-escuro text-lg">
+                                Cheesecake de Frutas Vermelhas
+                            </h3>
+                        </div>
+                        <p class="text-marrom-escuro/70 mt-1 text-sm md:text-base md:w-85">Cream cheese, geleia artesanal e biscoito.</p>
+                    </div>
+                    <span class="text-pink-500 font-bold text-xs md:text-sm">
+                        R$ 22 / fatia
+                    </span>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex justify-between items-start">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-bold text-marrom-escuro text-lg">
+                                Pavê de Ninho
+                            </h3>
+                        </div>
+                        <p class="text-marrom-escuro/70 mt-1 text-sm md:text-base md:w-85">Camadas de biscoito, leite ninho e morango.</p>
+                    </div>
+                    <span class="text-pink-500 font-bold text-xs md:text-sm">
+                        R$ 16 / porção
+                    </span>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex justify-between items-start">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <p class="font-bold text-marrom-escuro text-lg">
+                                Banoffee
+                            </p>
+                        </div>
+                        <p class="text-marrom-escuro/70 mt-1 text-sm md:text-base md:w-85">
+                            Doce de leite, banana caramelizada e chantilly.
+                        </p>
+                    </div>
+                    <span class="text-pink-500 font-bold text-xs md:text-sm">
+                        R$ 19 / fatia
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sobre" class="bg-amber-50 px-8 py-16">
+        <div class="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto items-start">
+            <div>
+                <p class="font-vibes text-pink-400 text-3xl mb-2">
+                    Sobre nós
+                </p>
+                <h2 class="font-display text-4xl font-bold text-marrom-escuro mb-6">
+                    Uma confeitaria de bairro, com afeto de vó.
+                </h2>
+                <p class="text-marrom-escuro/80 mb-6">
+                    A Delícia's Cake começou em 2016, na cozinha de casa, com receitas de família e muito amor.
+                    Hoje atendemos festas, casamentos e o dia a dia — sempre com ingredientes selecionados e produção
+                    artesanal.
+                </p>
+                <ul class="text-marrom-escuro space-y-2">
+                    <li class="flex items-center gap-2"><span class="w-2 h-2 bg-pink-400 rounded-full"></span>
+                        Ingredientes selecionados
+                    </li>
+                    <li class="flex items-center gap-2"><span class="w-2 h-2 bg-pink-400 rounded-full"></span>
+                        Produção 100% artesanal
+                    </li>
+                    <li class="flex items-center gap-2"><span class="w-2 h-2 bg-pink-400 rounded-full"></span>
+                        Encomendas com 48h de antecedência
+                    </li>
+                </ul>
+            </div>
+
+            <div id="contato" class="bg-linear-to-br from-pink-500/70 via-pink-400/60 to-pink-300/50 rounded-3xl p-8 text-white">
+                <p class="font-vibes text-3xl mb-1">Contato</p>
+                <h3 class="font-display text-3xl font-bold mb-6">
+                    Peça o seu
+                </h3>
+                <div class="space-y-4">
+                    <div>
+                        <p class="text-sm text-white/70">WhatsApp</p>
+                        <p class="font-semibold">(21) 98777-4444</p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-white/70">Instagram</p>
+                        <p class="font-semibold">@deliciascake</p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-white/70">Endereço</p>
+                        <p class="font-semibold">Rua das Flores, 88 · Rio de Janeiro</p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-white/70">Horário</p>
+                        <p class="font-semibold">Ter — Sáb, 10h às 19h</p>
+                    </div>
+                </div>
+                <button class="bg-white text-pink-400 px-6 py-3 rounded-full font-semibold mt-6 hover:bg-pink-300 hover:text-white">
+                    Chamar no WhatsApp
+                </button>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-linear-to-r from-rosa-bg-header-1 via-rosa-bg-header-2 to-rosa-bg-header-3 px-8 py-8 flex-col mx-auto items-center text-center border-t border-pink-100">
+        <img class="block w-28 mx-auto" src="./assets/imagens/logo-1.png" alt="Logo Delícia's Cake">
+        <p class="text-marrom-escuro text-sm">
+            © 2026 · Feito com muito carinho.
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-marrom-escuro: #3C2B24;
+  --color-rosa-bg-header-1: #FFB0E0;
+  --color-rosa-bg-header-2: #FF83C3;
+  --color-rosa-bg-header-3: #FFA0C5;
+  --font-vibes: "Great Vibes", cursive;
+  --font-display: "Playfair Display", serif;
+  --font-sans: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+}
